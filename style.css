@@ -21,10 +21,12 @@ body{
 
 .left-section{
     background-color: whitesmoke;
+    grid-column: span 1;
 }
 
 .right-section{
     background-color: turquoise;
+    grid-column: span 1 / span 2;
 }
 
 .left-content{
